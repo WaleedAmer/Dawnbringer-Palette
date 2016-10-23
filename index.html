@@ -168,12 +168,9 @@
     </center>
   </div>
   <script>
-    function copyToClipboard(text) {
-      window.prompt("Copy to clipboard: Ctrl+C", text);
-    }
-
-    $(":button").click(function(event) {
-      copyToClipboard(css.substring(0, css.indexOf(')') + 1););
+    $(":button").click(function() {
+      var css = $(this).css("background");
+      window.prompt("Ctrl-C to copy", css.substring(0, css.indexOf(')') + 1));
     });
   </script>
 </body>
