@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Dawnbringer's Palette</title>
+  <meta charset="utf-8">
+  <meta name="viewport" conc10t="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .page-header {
+      text-align: center;
+      font-size: 24px;
+    }
+    
+    .btn {
+      width: 100%;
+      height: 100%;
+      color: white;
+      margin: 4px;
+      background: transparent;
+    }
+    
+    .btn-primary {
+      background: rgb(89, 125, 206);
+    }
+    
+    .btn:hover {
+      color: rgb(222, 238, 214);
+    }
+    
+    .btn:active {
+      color: rgb(222, 238, 214);
+    }
+    
+    .c1 {
+      background: rgb(20, 12, 28);
+    }
+    .c2 {
+      background: rgb(68, 36, 52);
+    }
+    .c3 {
+      background: rgb(48, 52, 109);
+    }
+    .c4 {
+      background: rgb(78, 74, 78);
+    }
+    .c5 {
+      background: rgb(133, 76, 48);
+    }
+    .c6 {
+      background: rgb(52, 101, 36);
+    }
+    .c7 {
+      background: rgb(208, 70, 72);
+    }
+    .c8 {
+      background: rgb(117, 113, 97);
+    }
+    .c9 {
+      background: rgb(89, 125, 206);
+    }
+    .c10 {
+      background: rgb(210, 125, 44);
+    }
+    .c11 {
+      background: rgb(133, 149, 161);
+    }
+    .c12 {
+      background: rgb(109, 170, 44);
+    }
+    .c13 {
+      background: rgb(210, 170, 153);
+    }
+    .c14 {
+      background: rgb(109, 194, 202);
+    }
+    .c15 {
+      background: rgb(218, 212, 94);
+    }
+    .c16 {
+      background: rgb(222, 238, 214);
+      color: rgb(133, 149, 161);
+    }
+    .c16:hover {
+      color: rgb(117, 113, 97);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="page-header">
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 title">
+          <a href="http://pixeljoint.com/forum/forum_posts.asp?TID=12795">Dawnbringer's Palette</a>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <button class="btn btn-lg c1">Black</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c2">Mahogany</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c3">Indigo</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c4">Dark Gray</button>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-3">
+        <button class="btn btn-lg c5">Brown</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c6">Dark Green</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c7">Salmon</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c8">Greenish Gray</button>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-3">
+        <button class="btn btn-lg c9">Blue</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c10">Orange</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c11">Gray</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c12">Light Green</button>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-3">
+        <button class="btn btn-lg c13">Tan</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c14">Light Blue</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c15">Yellow</button>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg c16">White Green</button>
+      </div>
+    </div>
+    <br>
+    <center>
+      <div class="well">
+        This page is inspired by <a href="http://flatuicolors.com/m">Flat UI Colors</a> a <a href="http://pixeljoint.com/forum/forum_posts.asp?TID=12795">DawnBringer's 16 Col Palette v1.0</a> instead.
+      </div>
+    </center>
+  </div>
+  <script>
+    function copyToClipboard(text) {
+      window.prompt("Copy to clipboard: Ctrl+C", text);
+    }
+
+    $(":button").click(function(event) {
+      copyToClipboard(css.substring(0, css.indexOf(')') + 1););
+    });
+  </script>
+</body>
+
+</html>
